@@ -1,0 +1,44 @@
+# ============================
+#  Prediksi Drop-out Mahasiswa
+#  Requirements untuk VS Code + Jupyter
+# ============================
+
+# ---- Core Python Packages ----
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# ---- Machine Learning ----
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+joblib>=1.3.0
+imbalanced-learn>=0.12.0   # opsional, untuk data tidak seimbang
+
+# ---- Data Visualization ----
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0              # interaktif (optional)
+yellowbrick>=1.5             # visualisasi model (optional)
+
+# ---- Notebook & Development ----
+jupyter>=1.0.0
+ipykernel>=6.29.0
+notebook>=7.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+tqdm>=4.66.0
+
+# ---- Data Handling / Export ----
+openpyxl>=3.1.2             # untuk Excel
+tabulate>=0.9.0             # tampilan tabel rapi
+reportlab>=4.0.0            # export laporan PDF (optional)
+
+# ---- Utilities ----
+python-dotenv>=1.0.0        # jika pakai .env
+requests>=2.31.0
+pyyaml>=6.0.0
+pathlib>=1.0.1
+
+# ---- Environment & Style ----
+flake8>=6.1.0               # linting (opsional)
+black>=24.1.0               # autoformatter (opsional)
